@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom left,white 50%, #d7f0f8 50%);
+    height: 100vh;
+}
+
+h2 {
+    color: #145DA0;
+    text-align: center;
+    font-size: 35px;
+}
+  
+  /* designing the input field */
+.inputs {
+    margin: 10px 0;
+    border: 2px solid #145DA0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+ /* adjusting the font awesome icons */
+.inputs i {
+    flex: 1;
+    margin-left: 25px;
+    color: #666;
+    font-size: 18px;
+}
+
+.inputs input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+ /* removing the focus on input fields */
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+ /* styling the button */
+.btnColor {
+    border-radius: 50px;
+    height: 50px;
+    background: #145DA0;
+    color: white;
+    font-weight: 600;
+}
+/* adjusting the button position */
+.btnPosition {
+    text-align: center;   
+}
+
+.btn:hover {
+    background-color: #3a9bf5;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
