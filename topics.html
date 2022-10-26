@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore C</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  
+
+  <!-- BOOTSTRAP LINKS -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  
+  <style>
+    button {
+      margin: 5px;
+    }
+    
+  </style>
+
+
+  
+</head>
+
+<body>
+    <form action="/selectedTopic" method="post" class="container">
+        <button type="submit" name="photo" value="1" class="btn btn-large btn-outline-dark">introduction to C</button>
+        <button type="submit" name="photo" value="2" class="btn btn-large btn-outline-dark">Keywords</button>
+        <button type="submit" name="photo" value="3" class="btn btn-large btn-outline-dark">Identifiers</button>
+        <button type="submit" name="photo" value="4" class="btn btn-large btn-outline-dark">Variables</button>
+        <button type="submit" name="photo" value="5(1)" class="btn btn-large btn-outline-dark">Integer Literals</button>
+        <button type="submit" name="photo" value="5(2)" class="btn btn-large btn-outline-dark">Floating point literals</button>
+        <button type="submit" name="photo" value="5(3)" class="btn btn-large btn-outline-dark">Character Literals</button>
+        <button type="submit" name="photo" value="5(4)" class="btn btn-large btn-outline-dark">String Literals</button>
+        <button type="submit" name="photo" value="6(1)" class="btn btn-large btn-outline-dark">Const Keyword</button>
+        <button type="submit" name="photo" value="6(2)" class="btn btn-large btn-outline-dark">#define</button>
+        <button type="submit" name="photo" value="6(3)"class="btn btn-large btn-outline-dark">typedef</button>
+        <button type="submit" name="photo" value="7" class="btn btn-large btn-outline-dark">Comments</button>
+        <button type="submit" name="photo" value="8" class="btn btn-large btn-outline-dark">Data types</button>
+        <button type="submit" name="photo" value="9" class="btn btn-large btn-outline-dark">scanf statement</button>
+        <button type="submit" name="photo" value="10" class="btn btn-large btn-outline-dark">printf statement</button>
+        <button type="submit" name="photo" value="11(1)" class="btn btn-large btn-outline-dark">Arithmetic Operators</button>
+        <button type="submit" name="photo" value="11(2)" class="btn btn-large btn-outline-dark">Increment and Decrement Operators</button>
+        <button type="submit" name="photo" value="11(3)" class="btn btn-large btn-outline-dark">Assignment Operators </button>
+        <button type="submit" name="photo" value="11(4)" class="btn btn-large btn-outline-dark">relational operators</button>
+        <button type="submit" name="photo" value="11(5)" class="btn btn-large btn-outline-dark">Logical Operators</button>
+        <button type="submit" name="photo" value="11(6)" class="btn btn-large btn-outline-dark">Bitwise Operators</button>
+        <button type="submit" name="photo" value="11(7)" class="btn btn-large btn-outline-dark">sizeof Operator</button>
+        <button type="submit" name="photo" value="11(8)" class="btn btn-large btn-outline-dark">Comma Operator</button>
+        <button type="submit" name="photo" value="12" class="btn btn-large btn-outline-dark">Format Specifiers</button>
+        <button type="submit" name="photo" value="13" class="btn btn-large btn-outline-dark">Escape Sequences</button>
+        <button type="submit" name="photo" value="14" class="btn btn-large btn-outline-dark">Basic Structure of C program</button>
+        <button type="submit" name="photo" value="15(1)" class="btn btn-large btn-outline-dark">Single Dimensional Arrays</button>
+        <button type="submit" name="photo" value="15(2)" class="btn btn-large btn-outline-dark">Multi Dimensional Arrays</button>
+        <button type="submit" name="photo" value="16(1)" class="btn btn-large btn-outline-dark">String syntax</button>
+        <button type="submit" name="photo" value="16(2)" class="btn btn-large btn-outline-dark">String syntax using pointers</button>
+        <button type="submit" name="photo" value="16(3)" class="btn btn-large btn-outline-dark">String pre defineed functions</button>
+        <button type="submit" name="photo" value="17(1)" class="btn btn-large btn-outline-dark">simple if</button>
+        <button type="submit" name="photo" value="17(2)" class="btn btn-large btn-outline-dark">if else</button>
+        <button type="submit" name="photo" value="17(3)" class="btn btn-large btn-outline-dark">else-if ladder</button>
+        <button type="submit" name="photo" value="17(4)" class="btn btn-large btn-outline-dark">switch case</button>
+        <button type="submit" name="photo" value="18(1)" class="btn btn-large btn-outline-dark">while loop</button>
+        <button type="submit" name="photo" value="18(2)" class="btn btn-large btn-outline-dark">do-while loop</button>
+        <button type="submit" name="photo" value="18(3)" class="btn btn-large btn-outline-dark">for loop</button>
+        <button type="submit" name="photo" value="19(1)" class="btn btn-large btn-outline-dark">break statement</button>
+        <button type="submit" name="photo" value="19(2)" class="btn btn-large btn-outline-dark">continue statement</button>
+        <button type="submit" name="photo" value="19(3)" class="btn btn-large btn-outline-dark">go to statement</button>
+        <button type="submit" name="photo" value="20(1)" class="btn btn-large btn-outline-dark">Standard Library functions</button>
+        <button type="submit" name="photo" value="20(2)" class="btn btn-large btn-outline-dark">User Defined Functions</button>
+        <button type="submit" name="photo" value="20(3)" class="btn btn-large btn-outline-dark">Recursive functions</button>
+        <button type="submit" name="photo" value="21(1)" class="btn btn-large btn-outline-dark">Automatic Variables</button>
+        <button type="submit" name="photo" value="21(2)" class="btn btn-large btn-outline-dark">External/ Global Variables</button>
+        <button type="submit" name="photo" value="21(3)" class="btn btn-large btn-outline-dark">Static Variables</button>
+        <button type="submit" name="photo" value="21(4)" class="btn btn-large btn-outline-dark">Register Variables</button>        
+        <button type="submit" name="photo" value="22" class="btn btn-large btn-outline-dark">pointers</button>
+        <button type="submit" name="photo" value="23(1)" class="btn btn-large btn-outline-dark">malloc() function</button>
+        <button type="submit" name="photo" value="23(2)" class="btn btn-large btn-outline-dark">calloc() function</button>
+        <button type="submit" name="photo" value="23(3)" class="btn btn-large btn-outline-dark">free() function</button>
+        <button type="submit" name="photo" value="23(4)" class="btn btn-large btn-outline-dark">relloc() function</button>
+        <button type="submit" name="photo" value="24" class="btn btn-large btn-outline-dark">Structures</button>
+        <button type="submit" name="photo" value="25" class="btn btn-large btn-outline-dark">Union</button>
+        <button type="submit" name="photo" value="26(1)" class="btn btn-large btn-outline-dark">modes of Files</button>
+        <button type="submit" name="photo" value="26(2)" class="btn btn-large btn-outline-dark">Opening File</button>
+        <button type="submit" name="photo" value="26(3)" class="btn btn-large btn-outline-dark">Reading File</button>
+        <button type="submit" name="photo" value="26(4)" class="btn btn-large btn-outline-dark">Writing File</button>
+        <button type="submit" name="photo" value="26(5)" class="btn btn-large btn-outline-dark">Renaming File</button>
+        <button type="submit" name="photo" value="26(6)" class="btn btn-large btn-outline-dark">removing File</button>
+        <button type="submit" name="photo" value="26(7)" class="btn btn-large btn-outline-dark">Closing File</button>
+        
+    </form>
+</body>

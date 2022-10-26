@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+    .red {
+        color: red;
+    }
+    .blue {
+        color: #145DA0;
+    }
+    img {
+        width: 400px;
+    }
+    a {
+        text-decoration: none;
+    }
+    button {
+        background: #145DA0;
+        color: white;
+        width: 200px;
+        height: 50px;
+    }
+</style>
+<body>
+    <h1 class="red">Login failed</h1>
+    <h1 class="blue">Enter Correct Credentials</h1>
+    <img src="/images/loginError.png">
+    <p>If you don't have an account, <a href="/signUpForm">Register here</a> </p>
+
+    <form action="/logIn" method="get">
+        <button type="submit">Back</button>
+    </form>
+</body>
+</html>
